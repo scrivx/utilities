@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Template Login</title>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="form-container sign-up">
+        <form action="">
+          <h1>Crea una Cuenta</h1>
+          <div class="social-icons">
+            <!-- Iconos de redes sociales como svg -->
+            <a href="" class="icon">
+              <picture>
+                <source srcset="./icons/google.svg" type="image/svg+xml" />
+                <img
+                  src="./icons/google.svg"
+                  alt="google"
+                  width="40px"
+                  height="40px"
+                />
+              </picture>
+            </a>
+            <a href="" class="icon">
+              <picture>
+                <source srcset="./icons/facebook.svg" type="image/svg+xml" />
+                <img
+                  src="./icons/facebook.svg"
+                  alt="facebook"
+                  width="40px"
+                  height="40px"
+                />
+              </picture>
+            </a>
+            <a href="" class="icon">
+              <picture>
+                <source srcset="./icons/linkediln.svg" type="image/svg+xml" />
+                <img
+                  src="./icons/linkediln.svg"
+                  alt="linkediln"
+                  width="40px"
+                  height="40px"
+                />
+              </picture>
+            </a>
+            <a href="" class="icon">
+              <picture>
+                <source srcset="./icons/github.svg" type="image/svg+xml" />
+                <img
+                  src="./icons/github.svg"
+                  alt="github"
+                  width="40px"
+                  height="40px"
+                />
+              </picture>
+            </a>
+            <!-- Iconos de redes sociales como svg -->
+          </div>
+          <span>o usa tu email para registrarte</span>
+          <input type="text" placeholder="Nombre de Usuario" />
+          <input type="email" placeholder="Email" />
+          <input type="password" placeholder="Contraseña" />
+          <button>Crear Cuenta</button>
+        </form>
+      </div>
+
+      <!-- Formulario de login -->
+      <div class="form-container sign-in">
+        <form action="">
+          <h1>Iniciar Sesión</h1>
+          <div class="social-icons">
+            <!-- Iconos de redes sociales como svg -->
+            <a href="" class="icon">
+              <picture>
+                <source srcset="./icons/google.svg" type="image/svg+xml" />
+                <img
+                  src="./icons/google.svg"
+                  alt="google"
+                  width="40px"
+                  height="40px"
+                />
+              </picture>
+            </a>
+            <a href="" class="icon">
+              <picture>
+                <source srcset="./icons/facebook.svg" type="image/svg+xml" />
+                <img
+                  src="./icons/facebook.svg"
+                  alt="facebook"
+                  width="40px"
+                  height="40px"
+                />
+              </picture>
+            </a>
+            <a href="" class="icon">
+              <picture>
+                <source srcset="./icons/linkediln.svg" type="image/svg+xml" />
+                <img
+                  src="./icons/linkediln.svg"
+                  alt="linkediln"
+                  width="40px"
+                  height="40px"
+                />
+              </picture>
+            </a>
+            <a href="" class="icon">
+              <picture>
+                <source srcset="./icons/github.svg" type="image/svg+xml" />
+                <img
+                  src="./icons/github.svg"
+                  alt="github"
+                  width="40px"
+                  height="40px"
+                />
+              </picture>
+            </a>
+            <!-- Iconos de redes sociales como svg -->
+          </div>
+          <span>o usa tu email para iniciar sesión</span>
+          <input type="email" placeholder="Email" />
+          <input type="password" placeholder="Contraseña" />
+          <a href="#">¡Olvidé mi contraseña!</a>
+          <button>Iniciar</button>
+        </form>
+      </div>
+
+      <!-- mostrar/ocultar el panel de login -->
+      <div class="toggle-container">
+        <div class="toggle">
+          <div class="toggle-panel toggle-left">
+            <h1>Bienvenido otra vez</h1>
+            <p>Ingrese sus datos personales para utilizar
+              todas las funciones del sitio.
+            </p>
+            <button class="hidden" id="login">Iniciar Sesión</button>
+          </div>
+
+          <div class="toggle-panel toggle-right">
+            <h1>Hola, ¿nuevo aquí?</h1>
+            <p>Registre una cuenta para utilizar
+              todas las funciones del sitio.
+            </p>
+            <button class="hidden" id="register">Registrarse</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
