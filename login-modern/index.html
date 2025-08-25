@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <linkrel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
     <link rel="stylesheet" href="styles.css" />
     <title>Template Login</title>
   </head>
@@ -12,52 +13,12 @@
         <form action="">
           <h1>Crea una Cuenta</h1>
           <div class="social-icons">
-            <!-- Iconos de redes sociales como svg -->
-            <a href="" class="icon">
-              <picture>
-                <source srcset="./icons/google.svg" type="image/svg+xml" />
-                <img
-                  src="./icons/google.svg"
-                  alt="google"
-                  width="40px"
-                  height="40px"
-                />
-              </picture>
-            </a>
-            <a href="" class="icon">
-              <picture>
-                <source srcset="./icons/facebook.svg" type="image/svg+xml" />
-                <img
-                  src="./icons/facebook.svg"
-                  alt="facebook"
-                  width="40px"
-                  height="40px"
-                />
-              </picture>
-            </a>
-            <a href="" class="icon">
-              <picture>
-                <source srcset="./icons/linkediln.svg" type="image/svg+xml" />
-                <img
-                  src="./icons/linkediln.svg"
-                  alt="linkediln"
-                  width="40px"
-                  height="40px"
-                />
-              </picture>
-            </a>
-            <a href="" class="icon">
-              <picture>
-                <source srcset="./icons/github.svg" type="image/svg+xml" />
-                <img
-                  src="./icons/github.svg"
-                  alt="github"
-                  width="40px"
-                  height="40px"
-                />
-              </picture>
-            </a>
-            <!-- Iconos de redes sociales como svg -->
+            <!-- Iconos de redes sociales -->
+            <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+            <!-- Iconos de redes sociales -->
           </div>
           <span>o usa tu email para registrarte</span>
           <input type="text" placeholder="Nombre de Usuario" />
@@ -72,52 +33,12 @@
         <form action="">
           <h1>Iniciar Sesión</h1>
           <div class="social-icons">
-            <!-- Iconos de redes sociales como svg -->
-            <a href="" class="icon">
-              <picture>
-                <source srcset="./icons/google.svg" type="image/svg+xml" />
-                <img
-                  src="./icons/google.svg"
-                  alt="google"
-                  width="40px"
-                  height="40px"
-                />
-              </picture>
-            </a>
-            <a href="" class="icon">
-              <picture>
-                <source srcset="./icons/facebook.svg" type="image/svg+xml" />
-                <img
-                  src="./icons/facebook.svg"
-                  alt="facebook"
-                  width="40px"
-                  height="40px"
-                />
-              </picture>
-            </a>
-            <a href="" class="icon">
-              <picture>
-                <source srcset="./icons/linkediln.svg" type="image/svg+xml" />
-                <img
-                  src="./icons/linkediln.svg"
-                  alt="linkediln"
-                  width="40px"
-                  height="40px"
-                />
-              </picture>
-            </a>
-            <a href="" class="icon">
-              <picture>
-                <source srcset="./icons/github.svg" type="image/svg+xml" />
-                <img
-                  src="./icons/github.svg"
-                  alt="github"
-                  width="40px"
-                  height="40px"
-                />
-              </picture>
-            </a>
-            <!-- Iconos de redes sociales como svg -->
+            <!-- Iconos de redes sociales -->
+            <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+            <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+            <!-- Iconos de redes sociales -->
           </div>
           <span>o usa tu email para iniciar sesión</span>
           <input type="email" placeholder="Email" />
@@ -132,16 +53,17 @@
         <div class="toggle">
           <div class="toggle-panel toggle-left">
             <h1>Bienvenido otra vez</h1>
-            <p>Ingrese sus datos personales para utilizar
-              todas las funciones del sitio.
+            <p>
+              Ingrese sus datos personales para utilizar todas las funciones del
+              sitio.
             </p>
             <button class="hidden" id="login">Iniciar Sesión</button>
           </div>
 
           <div class="toggle-panel toggle-right">
             <h1>Hola, ¿nuevo aquí?</h1>
-            <p>Registre una cuenta para utilizar
-              todas las funciones del sitio.
+            <p>
+              Registre una cuenta para utilizar todas las funciones del sitio.
             </p>
             <button class="hidden" id="register">Registrarse</button>
           </div>
